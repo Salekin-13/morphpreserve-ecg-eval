@@ -1,0 +1,12 @@
+# Core (required)
+numpy>=1.23
+scipy>=1.9
+
+# Optional but recommended
+PyWavelets>=1.4      # wavelet denoiser baseline
+wfdb>=4.0            # PhysioNet QT DB + NSTDB noise loaders (needs network)
+pandas>=1.5          # richer reporting (pipeline falls back without it)
+matplotlib>=3.5      # optional plotting in examples
+
+# Testing
+pytest>=7.0
